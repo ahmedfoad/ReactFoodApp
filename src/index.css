@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-mist font-sans text-ink antialiased;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  ::selection {
+    @apply bg-citrus text-ink;
+  }
+}
